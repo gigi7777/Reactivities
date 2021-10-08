@@ -1,0 +1,5 @@
+{
+    "typescript.referencesCodeLens.enabled": true,
+    "diffEditor.codeLens": true,
+    "javascript.referencesCodeLens.enabled": true
+}
