@@ -23,7 +23,7 @@ export default observer(function ActivityForm() {
     });
 
     useEffect(() => {
-        if (id) loadActivity(id).then(activity => setActivity(activity!)); // ! it's could be undefined, but it wont be
+        if (id) loadActivity(id).then(activity => setActivity(activity!)); // ! it's could be undefined, but it won't be
     }, [id, loadActivity]); // The dependencies are preventing re-rendering over & over if those haven't changed
 
     function handleSubmit() {
